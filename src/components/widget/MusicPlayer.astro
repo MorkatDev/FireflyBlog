@@ -257,11 +257,9 @@ const processedLocalPlaylist =
       }
       
       // 立即设置右侧定位
-      aplayer.container.setAttribute('data-positioned', 'right');
+      
       
       requestAnimationFrame(() => {
-        aplayer.container.style.right = '0';
-        aplayer.container.style.left = 'unset';
         updatePlayingState();
         
         // 处理移动端显示/隐藏（页面恢复时也需要重新处理）
@@ -529,11 +527,14 @@ const processedLocalPlaylist =
   }
   
   /* 确保播放器初始化时就在右侧位置 */
-  #aplayer-container .aplayer.aplayer-fixed[data-positioned="right"] {
-    right: 0 !important;
-    left: unset !important;
+  .aplayer.aplayer-fixed {
+    right: 0;
+    left: auto;
   }
-
+  .aplayer.aplayer-fixed .aplayer-list {
+    right: 0;
+    left: auto;
+  }
   /* 移动端隐藏 - 通过 JavaScript 动态添加类 */
   .aplayer-fixed.mobile-hide {
     display: none !important;

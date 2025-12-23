@@ -43,18 +43,10 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	local: {
 		playlist: [
 			{
-				name: "使一颗心免于哀伤",
-				artist: "知更鸟 / HOYO-MiX / Chevy",
-				url: "/assets/music/使一颗心免于哀伤-哼唱.wav",
-				cover: "/assets/music/cover/109951169585655912.jpg",
-				lrc: "", // 歌词内容，支持 LRC 格式
-			},
-
-			{
       			name: "Far Away",
       			artist: "kz-livetune feat. 初音ミク",
       			url: "/assets/music/faraway.mp3",
-      			cover: "/assets/music/cover/1654168484688641684.jpg",
+      			cover: "/assets/music/cover/1654168484688641684.png",
       			lrc: "",
     		},
 		],
