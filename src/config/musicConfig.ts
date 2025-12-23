@@ -6,7 +6,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	enable: true, // 启用音乐播放器功能
 
 	// 使用方式：'meting' 或 'local'
-	mode: "meting", // "meting" 使用 Meting API，"local" 使用本地音乐列表
+	mode: "local", // "meting" 使用 Meting API，"local" 使用本地音乐列表
 
 	// Meting API 配置
 	meting: {
@@ -49,6 +49,14 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 				cover: "/assets/music/cover/109951169585655912.jpg",
 				lrc: "", // 歌词内容，支持 LRC 格式
 			},
+
+			{
+      			name: "Far Away",
+      			artist: "kz-livetune feat. 初音ミク",
+      			url: "/assets/music/faraway.wav",
+      			cover: "/assets/music/cover/1654168484688641684.jpg",
+      			lrc: "",
+    		},
 		],
 	},
 
