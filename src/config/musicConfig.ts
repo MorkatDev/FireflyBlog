@@ -53,7 +53,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 			{
       			name: "Far Away",
       			artist: "kz-livetune feat. 初音ミク",
-      			url: "/assets/music/faraway.wav",
+      			url: "/assets/music/faraway.mp3",
       			cover: "/assets/music/cover/1654168484688641684.jpg",
       			lrc: "",
     		},
